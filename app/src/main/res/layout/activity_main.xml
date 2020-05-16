@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:ems="10"
+        android:hint="enter summ"
+        android:inputType="number"
+        android:textColorHint="#83FF0606"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/procent_image_png" />
+
+    <TextView
+        android:id="@+id/result_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginRight="20dp"
+        android:hint="result"
+        android:lineSpacingExtra="36sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#83FF0606"
+        android:textColorHint="#83FF0606"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        app:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:text="how much is a percentage of the number"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/number_proc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:hint="enter procent"
+        android:inputType="number"
+        android:textColorHint="#83FF0606"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/result_btn"
+
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginTop="440dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="onClick"
+        android:paddingLeft="20dp"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="2"
+        android:text="Результат"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp" />
+
+</RelativeLayout>

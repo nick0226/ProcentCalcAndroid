@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity" >
+    android:background="#D7EAC292"
+    tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/number"
@@ -22,7 +23,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/procent_image_png" />
+        app:srcCompat="@drawable/procent_image_png_png" />
 
     <TextView
         android:id="@+id/result_number"
